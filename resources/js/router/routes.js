@@ -13,6 +13,11 @@ export default [
   { path: '/email/resend', name: 'verification.resend', component: page('auth/verification/resend.vue') },
 
   { path: '/home', name: 'home', component: page('home.vue') },
+  { path: '/candidates', name: 'candidates', component: page('candidates/index.vue') },
+  { path: '/customers', name: 'customers', component: page('customers/index.vue') },
+  { path: '/projects', name: 'projects', component: page('projects/index.vue') },
+  { path: '/tasks', name: 'tasks', component: page('tasks/index.vue') },
+  { path: '/companies', name: 'companies', component: page('companies/index.vue') },
   { path: '/settings',
     component: page('settings/index.vue'),
     children: [

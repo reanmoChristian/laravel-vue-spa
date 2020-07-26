@@ -5,7 +5,7 @@ const { locale, locales } = window.config
 
 // state
 export const state = {
-  locale: Cookies.get('locale') || locale,
+  locale: 'de' || locale,
   locales: locales
 }
 
